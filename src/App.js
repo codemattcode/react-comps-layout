@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <h2>React ToyShop</h2>
+      <div className="app-wrapper">
+
+        <div className="app-header">
+          <h2>Best Web App Ever!</h2>
         </div>
-        <p className="App-intro">
-           <code>This is where the magic happens</code>
+        <p className="app-intro-txt">
+           <code>Start here with your code and magic</code>
         </p>
+
       </div>
     );
   }
