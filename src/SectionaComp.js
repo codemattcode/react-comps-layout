@@ -6,8 +6,8 @@ class SectionaComp extends Component {
     return (
       <div>
 
-        <div className="intro-txt">
-         <p>
+        <div>
+         <p className="sectionaComp-txt">
          Start here with your code and magic
          </p>
          </div>

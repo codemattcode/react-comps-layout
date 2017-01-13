@@ -7,7 +7,7 @@ class HeaderComp extends Component {
     return (
       <div>
 
-      <div className="HeaderComp-header">
+      <div className="headerDiv">
         <h2>Best Web App Ever!</h2>
       </div>
 

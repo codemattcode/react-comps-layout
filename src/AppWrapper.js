@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
+import './AppWrapper.css';
 
 import HeaderComp from './HeaderComp';
 import SectionaComp from './SectionaComp';
 
-class App extends Component {
+class AppWrapper extends Component {
   render() {
     return (
       <div className="app-wrapper">
@@ -17,4 +17,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default AppWrapper;
