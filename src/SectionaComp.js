@@ -7,9 +7,9 @@ class SectionaComp extends Component {
       <div>
 
         <div>
-         <p className="sectionaComp-txt">
+         <code className="sectionaComp-txt">
          Start here with your code and magic
-         </p>
+         </code>
          </div>
 
       </div>
