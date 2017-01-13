@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import axios from 'axios';
-
-import './jsonComp.css';
-
+  import axios from 'axios';
+  import './jsonComp.css';
 
 class JsonComp extends Component {
+
   constructor(props) {
     super(props);
 

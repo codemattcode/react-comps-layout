@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './sectionaComp.css';
-
 class SectionaComp extends Component {
   render() {
     return (
@@ -8,14 +7,14 @@ class SectionaComp extends Component {
 
         <div>
          <code className="sectionaComp-txt">
-         Start here with your code and magic
+         <p>{this.props.prop.name}</p>
+         <p>{this.props.prop.age}</p>
+         <p>{this.props.prop.gender}</p>
          </code>
-         </div>
+        </div>
 
       </div>
     );
   }
 }
-
-
 export default SectionaComp;
