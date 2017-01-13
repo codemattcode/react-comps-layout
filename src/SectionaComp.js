@@ -4,7 +4,7 @@ import './sectionaComp.css';
 class SectionaComp extends Component {
   render() {
     return (
-      <div>
+      <div className="sectionaComp-wrapper">
 
         <div>
          <code className="sectionaComp-txt">

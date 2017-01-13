@@ -5,9 +5,9 @@ import './headerComp.css';
 class HeaderComp extends Component {
   render() {
     return (
-      <div>
+      <div className="headerComp-wrapper">
 
-      <div className="headerDiv">
+      <div className="headerHero">
         <h2>Best Web App Ever!</h2>
       </div>
 
