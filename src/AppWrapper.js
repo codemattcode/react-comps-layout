@@ -12,8 +12,8 @@ class AppWrapper extends Component {
 
         <HeaderComp />
         <SectionaComp />
-        <JsonComp />
-      
+        <JsonComp subreddit="reactjs"/>
+
       </div>
     );
   }
