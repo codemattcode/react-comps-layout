@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Newcomp from './Newcomp';
 
 class App extends Component {
   render() {
@@ -12,7 +13,7 @@ class App extends Component {
         <p className="app-intro-txt">
            <code>Start here with your code and magic</code>
         </p>
-
+          <Newcomp />
       </div>
     );
   }
