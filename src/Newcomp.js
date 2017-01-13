@@ -14,4 +14,5 @@ class Newcomp extends Component {
   }
 }
 
+
 export default Newcomp;
