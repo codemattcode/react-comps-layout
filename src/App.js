@@ -10,9 +10,11 @@ class App extends Component {
         <div className="app-header">
           <h2>Best Web App Ever!</h2>
         </div>
-        <p className="app-intro-txt">
+      {  /* <p className="app-intro-txt">
            <code>Start here with your code and magic</code>
-        </p>
+           </p>
+           */
+      }
           <Newcomp />
       </div>
     );
