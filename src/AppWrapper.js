@@ -3,6 +3,7 @@ import './AppWrapper.css';
 
 import HeaderComp from './HeaderComp';
 import SectionaComp from './SectionaComp';
+import JsonComp from './JsonComp';
 
 class AppWrapper extends Component {
   render() {
@@ -11,7 +12,8 @@ class AppWrapper extends Component {
 
         <HeaderComp />
         <SectionaComp />
-
+        <JsonComp />
+      
       </div>
     );
   }
