@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './headerComp.css';
 
-
 class HeaderComp extends Component {
   render() {
     return (
