@@ -15,7 +15,7 @@ class AppWrapper extends Component {
 
         <HeaderComp wolfy="hello world!"/>
         <SectionaComp monkey={badu}/>
-        <JsonComp api="movies"/>
+        <JsonComp api="wot no API"/>
 
       </div>
     );
