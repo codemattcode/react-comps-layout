@@ -7,9 +7,9 @@ class SectionaComp extends Component {
 
         <div>
          <code className="sectionaComp-txt">
-         <p>{this.props.prop.name}</p>
-         <p>{this.props.prop.age}</p>
-         <p>{this.props.prop.gender}</p>
+         <p>{this.props.monkey.name}</p>
+         <p>{this.props.monkey.age}</p>
+         <p>{this.props.monkey.gender}</p>
          </code>
         </div>
 

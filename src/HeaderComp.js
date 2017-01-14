@@ -7,7 +7,7 @@ class HeaderComp extends Component {
       <div className="headerComp-wrapper">
 
       <div className="headerHero">
-        <h2>{this.props.msg}</h2>
+        <h2>{this.props.wolfy}</h2>
       </div>
 
       </div>

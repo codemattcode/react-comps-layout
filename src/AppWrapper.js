@@ -3,19 +3,19 @@ import React, { Component } from 'react';
   import HeaderComp from './HeaderComp';
   import SectionaComp from './SectionaComp';
   import JsonComp from './JsonComp';
-let user = {
-  name: 'prop:user.variable.name',
-  age: 'prop:user.variable.age',
-  gender: 'prop:user.variable.gender'
+let badu = {
+  name: 'fred',
+  age: '34',
+  gender: 'male'
 };
 class AppWrapper extends Component {
   render() {
     return (
       <div className="app-wrapper">
 
-        <HeaderComp msg="this.props.msg"/>
-        <SectionaComp prop={user}/>
-        <JsonComp subreddit="reactjs"/>
+        <HeaderComp wolfy="hello world!"/>
+        <SectionaComp monkey={badu}/>
+        <JsonComp api="movies"/>
 
       </div>
     );

@@ -1,36 +1,52 @@
 import React, { Component } from 'react';
-  import axios from 'axios';
+  import Superagent from 'superagent';
   import './jsonComp.css';
-
 class JsonComp extends Component {
 
   constructor(props) {
-    super(props);
+    super();
 
     this.state = {
-      posts: []
+
     };
   }
 
-  componentDidMount() {
-    axios.get(`http://www.reddit.com/r/${this.props.subreddit}.json`)
-      .then(res => {
-        const posts = res.data.data.children.map(obj => obj.data);
-        this.setState({ posts });
+  componentWillMount() {
+    var url = "http://www.omdbapi.com?s=star@y=&r=json&plot=short";
+    Superagent.get(url).then((response) => {
+      this.setState({
+        movies: response
       });
+    });
+
   }
+
+componentDidMount(){
+
+}
+componentReceiveProps(nextProps){
+
+}
+
+componentWillUpdate(nextProps, nextState){
+  
+}
+componentWillUnmount(){
+
+}
+
 
   render() {
     return (
       <div className="jsonComp-wrapper">
 
         <div className="jsonHero">
-        <h1>{`/r/${this.props.subreddit}`}</h1>
+        <h1>{this.props.api}</h1>
+
         <ul>
-          {this.state.posts.map(post =>
-            <li key={post.id}>{post.title}</li>
-          )}
+
         </ul>
+
         </div>
 
       </div>
