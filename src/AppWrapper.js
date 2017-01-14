@@ -13,7 +13,7 @@ class AppWrapper extends Component {
     return (
       <div className="app-wrapper">
 
-        <HeaderComp wolfy="hello world!"/>
+        <HeaderComp wolfy="Hello World!"/>
         <SectionaComp monkey={badu}/>
         <JsonComp api="wot no API"/>
 
